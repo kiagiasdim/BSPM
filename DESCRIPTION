@@ -1,0 +1,29 @@
+Package: BSPM
+Version: 0.1.0
+Title: Bayesian Statistical Process Monitoring
+Authors@R: c(person("Dimitrios", "Kiagias", 
+             role = c("aut", "cre", "cph"), 
+             email = "d.kiagias@sheffield.ac.uk"),
+             person("Konstantinos", "Bourazas", 
+             role = c("aut", "cph"), 
+             email = "kbourazas@aueb.gr"),
+             person("Panayiotis", "Tsiamyrtzis", 
+             role = c("aut", "cph"), 
+             email = "panagiotis.tsiamyrtzis@polimi.it"))
+Author: Dimitrios Kiagias [aut, cre, cph],
+        Konstantinos Bourazas [aut, cph],
+        Panayiotis Tsiamyrtzis [aut, cph]
+Maintainer: Dimitrios Kiagias <d.kiagias@sheffield.ac.uk>
+Description: Predictive Control Charts (PCC) for 
+  members of the regular exponential family.
+License: GPL (>=2)
+Depends:
+    R (>= 3.5.0)
+Imports: 
+  plotrix,
+  grDevices,
+  stats,
+  ggplot2,
+  grid,
+  gridExtra
+LazyData: true
